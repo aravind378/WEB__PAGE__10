@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiggy Dineout Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="swiggy_logo.webp" alt="" class="logo">
+        <select name="Location" placeholder="Location" class="location">
+            <option value="chennai">chennai</option>
+            <option value="kochi">kochi</option>
+            <option value="hyerabad">hyderabad</option>
+        </select>
+        <input type="text" placeholder="Search for Restaurants, Offers, Deals or Events"> 
+        <button class="search-btn">Search</button>
+        <button class="login-btn">Log in</button>
+    </header>
+    
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Book a Table</a>
+        <a href="#">Blog</a>
+    </nav>
+
+    <main>
+        <div class="sidebar">
+            <h3>Quick Filters</h3>
+            <input type="text" placeholder="Search">
+            <ul>
+                <li><input type="checkbox"> Dineout Pay</li>
+                <li><input type="checkbox"> Pure Veg</li>
+                <li><input type="checkbox"> 5 Star</li>
+                <li><input type="checkbox"> Buffet</li>
+            </ul>
+            <hr>
+            <h3>Cuisines</h3>
+            <input type="text" placeholder="Search For Cuisine">
+            <ul>
+               <p>Chinese food</p>
+               <p>North Indian</p>
+               <p>Desserts</p>
+               <p>Fast Food</p>
+            </ul>
+            <hr>
+            <h3>Tags</h3>
+            <input type="text" placeholder="Search">
+            <ul>
+               <p>Casual Dining</p>
+               <p>Cafe</p>
+               <p>Breakfast</p>
+               <p>Fine Dining</p>
+            </ul>
+            <hr>
+            <div class="feature">
+               <h3>Features</h3>
+               <button>+</button>
+            </div>
+        </div>
+
+        <section class="content">
+            <div class="sort">
+                <h2>Best Restaurants Near Me in Bangalore</h2>
+                <div>
+                <label for="" class="label-sort">Sort By</label>
+                <select name="" class="sort-by">
+                    <option value="Rating">Rating</option>
+                    <option value="Popularity">Popularity</option>
+                    <option value="Price:low to High">Price:low to High</option>
+                    <option value="Price:High to Low">Price:High to Low</option>
+                 </select>
+                </div>
+            </div>
+            <div class="restaurants">
+                <div class="restaurant-card">
+                    <img src="bastian.webp" alt="Bastian Garden City">
+                    <h3>Bastian Garden City</h3>
+                    <p>Ashok Nagar, Central Bangalore</p>
+                    <p>₹ 4,000 for 2 (approx) | Chinese, Asian, Italian</p>
+                </div>
+                <div class="restaurant-card">
+                    <img src="spice.webp" alt="Spice Terrace">
+                    <h3>Spice Terrace</h3>
+                    <p>JW Marriott, Central Bangalore</p>
+                    <p>₹ 3,900 for 2 (approx) | North Indian, Mughlai</p>
+                </div>
+                <div class="restaurant-card">
+                    <img src="toscano.webp" alt="Toscano">
+                    <h3>Toscano</h3>
+                    <p>UB City, Central Bangalore</p>
+                    <p>₹ 1,600 for 2 (approx) | Italian</p>
+                </div>
+
+                <h3>Your Cuisine</h3>
+
+                <div class="scroll-card">
+                    <div class="restaurant-card">
+                        <img src="bastian.webp" alt="Bastian Garden City">
+                        <h3>Garden</h3>
+                    </div>
+                    <div class="restaurant-card">
+                        <img src="spice.webp" alt="Spice Terrace">
+                        <h3>Spice</h3>
+                    </div>
+                    <div class="restaurant-card">
+                        <img src="toscano.webp" alt="Toscano">
+                        <h3>Toscano</h3>
+                    </div>
+                    <div class="restaurant-card">
+                        <img src="jw-kitchen.webp" alt="Bastian Garden City">
+                        <h3>Bastian</h3>
+                    </div>
+                    <div class="restaurant-card">
+                        <img src="bastian.webp" alt="Bastian Garden City">
+                        <h3>Garden</h3>
+                    </div>
+                    <div class="restaurant-card">
+                        <img src="spice.webp" alt="Spice Terrace">
+                        <h3>Spice</h3>
+                    </div>
+                    <div class="restaurant-card">
+                        <img src="toscano.webp" alt="Toscano">
+                        <h3>Toscano</h3>
+                    </div>
+                    <div class="restaurant-card">
+                        <img src="jw-kitchen.webp" alt="Bastian Garden City">
+                        <h3>Bastian</h3>
+                    </div>
+                </div>
+
+                <div class="restaurant-card">
+                    <img src="jw-kitchen.webp" alt="Bastian Garden City">
+                    <h3>Bastian Garden City</h3>
+                    <p>Ashok Nagar, Central Bangalore</p>
+                    <p>₹ 4,000 for 2 (approx) | Chinese, Asian, Italian</p>
+                </div>
+                <div class="restaurant-card">
+                    <img src="banking.webp" alt="Spice Terrace">
+                    <h3>Spice Terrace</h3>
+                    <p>JW Marriott, Central Bangalore</p>
+                    <p>₹ 3,900 for 2 (approx) | North Indian, Mughlai</p>
+                </div>
+                <div class="restaurant-card">
+                    <img src="sanche.webp" alt="Toscano">
+                    <h3>Toscano</h3>
+                    <p>UB City, Central Bangalore</p>
+                    <p>₹ 1,600 for 2 (approx) | Italian</p>
+                </div>
+                <div class="restaurant-card">
+                    <img src="alba.webp" alt="Bastian Garden City">
+                    <h3>Bastian Garden City</h3>
+                    <p>Ashok Nagar, Central Bangalore</p>
+                    <p>₹ 4,000 for 2 (approx) | Chinese, Asian, Italian</p>
+                </div>
+
+                <h3>Your Food Style</h3>
+
+                <div class="scroll-card">
+                    <div class="restaurant-card">
+                        <img src="bastian.webp" alt="Bastian Garden City">
+                        <h3>Garden</h3>
+                    </div>
+                    <div class="restaurant-card">
+                        <img src="spice.webp" alt="Spice Terrace">
+                        <h3>Spice</h3>
+                    </div>
+                    <div class="restaurant-card">
+                        <img src="toscano.webp" alt="Toscano">
+                        <h3>Toscano</h3>
+                    </div>
+                    <div class="restaurant-card">
+                        <img src="jw-kitchen.webp" alt="Bastian Garden City">
+                        <h3>Bastian</h3>
+                    </div>
+                    <div class="restaurant-card">
+                        <img src="bastian.webp" alt="Bastian Garden City">
+                        <h3>Garden</h3>
+                    </div>
+                    <div class="restaurant-card">
+                        <img src="spice.webp" alt="Spice Terrace">
+                        <h3>Spice</h3>
+                    </div>
+                    <div class="restaurant-card">
+                        <img src="toscano.webp" alt="Toscano">
+                        <h3>Toscano</h3>
+                    </div>
+                    <div class="restaurant-card">
+                        <img src="jw-kitchen.webp" alt="Bastian Garden City">
+                        <h3>Bastian</h3>
+                    </div>
+                </div>
+
+
+                <div class="restaurant-card">
+                    <img src="salt.webp" alt="Spice Terrace">
+                    <h3>Spice Terrace</h3>
+                    <p>JW Marriott, Central Bangalore</p>
+                    <p>₹ 3,900 for 2 (approx) | North Indian, Mughlai</p>
+                </div>
+                <div class="restaurant-card">
+                    <img src="ozaa.webp" alt="Toscano">
+                    <h3>Toscano</h3>
+                    <p>UB City, Central Bangalore</p>
+                    <p>₹ 1,600 for 2 (approx) | Italian</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
